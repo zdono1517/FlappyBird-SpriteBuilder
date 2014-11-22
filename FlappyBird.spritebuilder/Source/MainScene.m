@@ -135,7 +135,7 @@
     _scoreLabel.string = [NSString stringWithFormat:@"%d", points];
     _scoreLabel.visible = true;
 }
-
+- (void)update:(CCTime)delta
 {
     _sinceTouch += delta;
     
